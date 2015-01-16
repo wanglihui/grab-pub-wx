@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.local.tulingdao.com/wanglihui/top-wx-grab.git"
+    "url": "https://github.com/wanglihui/grab-pub-wx.git"
   },
   "keywords": [
     "top",
     "grab",
     "wx"
   ],
-  "author": "lihui.wang@tulingdao.com",
-  "license": "ISC",
+  "author": "wanglihui.sjz@gmail.com",
+  "license": "GUN V2",
   "dependencies": {
     "q": "^1.1.2",
     "request": "^2.51.0"
