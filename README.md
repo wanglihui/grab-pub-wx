@@ -94,3 +94,37 @@
 |"-302"  | "token验证失败"       |
 |"-18"   | "缺少cookies"         |
 |"-19"   | "缺少token"           |
+
+###### 使用 example
+---
+
+    1. npm install top-wx-grab
+    2. 项目中使用，见下方:
+```
+    var robot = new GrabRobot();
+    robot.login('username', 'password', '')
+        .then(function(result) {
+            if (result.ret === 0) {
+                return robot.getAccountInfo()
+            } else {
+                return result;
+            }
+        })
+        .catch(function(err){
+          throw err;
+        })
+        .done(function(result) {
+            if (result.ret !== 0 ) {
+                //有错误了
+                console.info(result.msg);
+            } else {
+                //获取成功
+                console.info(result)
+            }
+        });
+```
+
+###### 依赖
+---
+    Q.js
+    request.js
