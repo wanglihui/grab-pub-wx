@@ -1,0 +1,19 @@
+{
+  "wx_host": "https://mp.weixin.qq.com",
+  "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.33 (KHTML, like Gecko) Chrome/27.0.1430.0 Safari/537.33",
+      "Referer": "https://mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=zh_CN"
+   },
+  "errors": {
+    "0": "OK",
+    "-1": "系统错误",
+    "-8": "需要输入验证码",
+    "-21": "用户不存在",
+    "-23": "密码不正确",
+    "-24": "获取登录凭证失败",
+    "-15": "设置oauth2失败",
+    "-302": "token验证失败",
+    "-18": "缺少cookies",
+    "-19": "缺少token"
+  }
+}
