@@ -141,7 +141,7 @@ describe("lib/index.js", function() {
 
   describe("GrabRobot#receiveMessageConfig", function() {
 
-    it("should be fail with not correct url", function(done) {
+    it("should be ok with correct url", function(done) {
       robot.login(testAccount.username, testAccount.pwd, '')
         .then(function(result) {
           if (result.ret == 0) {
